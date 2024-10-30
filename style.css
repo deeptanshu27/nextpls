@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+:root {
+    --background-color: #1E201E;
+    --highlight-color: #3C3D37;
+    --button-color: #697565;
+    --text-color: #ECDFCC;
+}
+
+body {
+    font-family: "Gowun Dodum", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: var(--background-color);
+    color: var(--text-color);
+    display: grid;
+    place-items: center;
+}
+
+a {
+    all: unset;
+}
+
+.title {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 60rem;
+}
+
+.json-data {
+    display: grid;
+    border: 1px solid var(--text-color);
+    text-align: center;
+}
+
+.json-data > a {
+    font-size: 1.5rem;
+    border-top: 1px solid;
+    padding: 20px 20px;
+}
+
+.json-data > a:hover {
+    background: var(--highlight-color);
+}
+
+.details {
+    display: flex;
+}
+.details > p {
+    font-size: 1.25rem;
+    background: var(--highlight-color);
+    padding: 2px 15px;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+.info {
+    margin-left: 10px;
+    font-size: 1.25rem;
+}
+
+.important {
+    background-color: var(--button-color);
+    padding: 0 10px;
+    border-radius: 5px;
+}
