@@ -34,9 +34,6 @@ nav {
     text-align: center;
     border-bottom: 1px solid;
     padding-bottom: 8px;
-}
-
-nav > a {
     font-size: 2rem;
 }
 
@@ -51,6 +48,7 @@ p {
     font-size: 5rem;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .info-display {
